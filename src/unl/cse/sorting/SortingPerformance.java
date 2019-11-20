@@ -51,6 +51,8 @@ public class SortingPerformance {
                 Location location = new Location(zip, lat, lon, city, state);
                 tmp.add(location);
             }
+            
+            scanner.close();
         } catch (FileNotFoundException e) {
             System.out.println(e);
         }

@@ -44,7 +44,7 @@ public class Location implements Comparable<Location> {
       */
     @Override
     public int compareTo(Location l) {
-    	throw new UnsupportedOperationException("YOU MUST IMPLEMENT THIS");
+    	return this.getCity().compareTo(l.getCity());
     }
     
     @Override
