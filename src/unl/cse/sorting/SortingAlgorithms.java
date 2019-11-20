@@ -35,7 +35,7 @@ public class SortingAlgorithms {
 		Location result[] = Arrays.copyOf(list, list.length);
 		quickSortRecursive(result, 0, result.length-1);
 		return result;
-	}
+	}   //stuff
 
 	private static void quickSortRecursive(Location list[], int low, int high) {
 		//TODO: implement quick sort here
